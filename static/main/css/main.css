@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+body {
+    font-family: 'Comfortaa', cursive;
+
+    background: #0e1117;
+    color: #C1CAD2;
+
+}
+
+table {
+    border-color: #C1CAD2;
+}
+
+table tr, th {
+    border-color: #C1CAD2;
+}
+
+aside {
+
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    background: #24563e;
+    border-right: 3px solid #111111;
+}
+
+aside img {
+    float: left;
+    width: 800px;
+
+}
+
+
+
+aside ul {
+    padding-top: 2%;
+    list-style: none;
+}
+
+aside ul li {
+    display: block;
+    margin-top: 20px;
+    transition: all .6s ease;
+    padding: 8px;
+}
+
+
+aside ul li a {
+    color: #ffffff;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+aside h4 {
+    text-shadow: 0 0 5px #29ab87, 0 0 10px #29ab87, 0 0 15px #29ab87, 0 0 20px #29ab87;
+    padding: 30px 0 0 20px;
+}
+
+aside ul li:hover, aside ul a:hover {
+    text-shadow: 0 0 10px #29ab87, 0 0 20px #29ab87;
+    color: #e3ea04;
+    transform: scale(1.05);
+}
+
+.title h1 {
+    font-size: 40px;
+    color: #fcfffc;
+    margin-bottom: 50px;
+}
+
+
+header {
+    padding-bottom: 10px;
+    margin-bottom: auto;
+    background: #0c3329;
+}
+
+header h2 {
+    text-shadow: 0 0 10px #29ab87, 0 0 20px #29ab87;
+    color: #29ab87;
+    padding: 20px 3% 0 0;
+    text-align: right;
+}
+
+header img {
+    float: right;
+}
+
+.head_img {
+    color: #f64c72;
+    float: left;
+    width: 30px;
+    height: auto;
+}
+
+footer {
+    font-weight: lighter;
+    text-align: center;
+    background: #0c3329;
+    padding: 10px;
+    margin-top: auto;
+    color: #ffffff;
+}
+
+footer p {
+    padding-top: 15px;
+
+}
+.info_img{
+    border-radius: 20px;
+    box-shadow: 0 0 10px #29ab87, 0 0 20px #29ab87;
+    margin: 50px 10% 50px 10% ;
+    width: 80%;
+
+}
+
+.page {
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.main {
+    margin-left: 8%;
+    padding: 40px 70px 40px 20px;
+}
+
+.main a {
+    color: #a2a20e;
+}
+
+.skill_list{
+    margin: 20px 0 20px 40px;
+
+}
+
+.skills_img {
+    border-radius: 20px;
+    box-shadow: 0 0 10px #29ab87, 0 0 20px #29ab87;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.home_img {
+    box-shadow: 0 0 10px #29ab87, 0 0 20px #29ab87;
+    margin: 0 0 30px 30px;
+    float: right;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.home_text {
+
+    float: left;
+
+}
+
+
+.text_block {
+    box-shadow: 0 0 10px #29ab87, 0 0 20px #29ab87;
+    padding: 4%;
+    margin: 2% 0 2% 0;
+    border-radius: 20px;
+}
+
+
+
+aside ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    text-decoration: none; 
+    font-size: 16px; 
+    color: #000; 
+    display: flex; 
+    align-items: center; 
+}
+
+aside ul li a i {
+    margin-right: 8px; 
+    font-size: 20px; 
+}
