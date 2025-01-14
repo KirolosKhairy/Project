@@ -17,16 +17,28 @@
 </header>
 
 <div class="container">
-    <!-- Sidebar Section -->
-    <aside>
-        <ul>
-            <li><a href="{% url 'home' %}"><i class="fa-brands fa-python"></i> Home</a></li>
-            <li><a href="{% url 'info' %}"><i class="fa-solid fa-question"></i> Info</a></li>
-            <li><a href="{% url 'geography' %}"><i class="fa-solid fa-earth-europe"></i> Geography</a></li>
-            <li><a href="{% url 'skills' %}"><i class="fa-solid fa-code"></i> Skills</a></li>
-            <li><a href="{% url 'vacancies' %}"><i class="fa-solid fa-clipboard-list"></i> Vacancies</a></li>
-        </ul>
-    </aside>
+
+    
+    <div>
+        
+        <button id="menu-toggle" class="menu-button">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    
+
+        <aside id="sidebar" class="hidden">
+            <ul>
+                <li><a href="{% url 'home' %}"><i class="fa-brands fa-python"></i> Home</a></li>
+                <li><a href="{% url 'info' %}"><i class="fa-solid fa-question"></i> Info</a></li>
+                <li><a href="{% url 'geography' %}"><i class="fa-solid fa-earth-europe"></i> Geography</a></li>
+                <li><a href="{% url 'skills' %}"><i class="fa-solid fa-code"></i> Skills</a></li>
+                <li><a href="{% url 'vacancies' %}"><i class="fa-solid fa-clipboard-list"></i> Vacancies</a></li>
+            </ul>
+        </aside>
+    </div>
+    
+
+    
 
     <!-- Main Content Section -->
     <div class="page">
@@ -41,5 +53,7 @@
 <footer>
     <p><i class="fa-regular fa-copyright"></i> Элия Киролос Хайри Фавзи РИ-321002</p>
 </footer>
+
+
 </body>
 </html>
